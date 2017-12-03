@@ -17,17 +17,20 @@ trait VehicleTrait
         'Results' => []
     ];
 
+    /**
+     * Configure you required attributes from the API and new attribute
+     * @var array
+     */
     public $resultPropertiesMaping = [
         'Description' => 'VehicleDescription',
         'VehicleId' => 'VehicleId'
     ];
-
-
+    
     public function sendGetRequest($url, $withRating = false)
     {
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', $url);
-        $obj =  GuzzleHttp\json_decode($res->getBody(), 2);
+        $obj = GuzzleHttp\json_decode($res->getBody(), 2);
         return $this->extarctResults($obj, $withRating);
     }
 
