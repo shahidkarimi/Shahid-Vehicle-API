@@ -1,9 +1,11 @@
 # Vehicle API
 This is a simple vehicle API to fetch modles and rating. This documentation explains input/output format as well as how to setup the application.
+The API is built using **Laravel Lumen** with **guzzleHttp** package.
 
 ## How to Install
-* Step 1: `git clone https://github.com/shahidkarimi/Shahid-Vehicle-API.git`
-* Step 2: `composer install`
+* `git clone https://github.com/shahidkarimi/Shahid-Vehicle-API.git`
+* `cd Shahid-Vehicle-API`
+* `composer install`
 
 
 
