@@ -2,8 +2,10 @@
 This is a simple vehicle API to fetch modles and rating. This documentation explains input/output format as well as how to setup the application.
 
 ## How to Install
-* Step 1: `git clone address here`
+* Step 1: `git clone https://github.com/shahidkarimi/Shahid-Vehicle-API.git`
 * Step 2: `composer install`
+
+
 
 ## How to Run
 If you want to run the application using artisan command, run the following command within the root direcotry.
