@@ -12,8 +12,14 @@ The API is built using **Laravel Lumen** with **guzzleHttp** package.
 
 ## How to Run
 If you want to run the application using artisan command, run the following command within the root direcotry.
-``php -S localhost:8000 -t ./public``
-The application will run at `http://localhost:8080`
+
+``
+php -S localhost:8000 -t ./public
+``
+
+The application will run at 
+
+`http://localhost:8080`
 
 ##### NOTE
  Since the application is not too much dependent on .env file in current context and it is not  included in the gitignore list. So you don't need to pay attention for the .env file.
