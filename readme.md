@@ -25,7 +25,7 @@ The application will run at
  Since the application is not too much dependent on .env file in current context and it is not  included in the gitignore list. So you don't need to pay attention for the .env file.
 
 ## Run Tests
-All scenarios mentioned in the requirement document are in test cases. In order to run test cases run `phpunit' command within root directory
+All scenarios mentioned in the requirement document are in test cases. In order to run test cases run `phpunit` if that don't work run `/vendor/bin/phpunit` command within root directory
 
 ## API Endpoints
 ### GET
