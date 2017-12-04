@@ -3,7 +3,7 @@ This is a simple vehicle API to fetch modles and rating. This documentation expl
 The API is built using **Laravel Lumen** with **guzzleHttp** package.
 
 ## Requirements
- * PHP >= 7.1.3
+ * PHP 7.x
  * Apache or Nginx 
 ## How to Install
 * `git clone https://github.com/shahidkarimi/Shahid-Vehicle-API.git`
@@ -14,7 +14,7 @@ The API is built using **Laravel Lumen** with **guzzleHttp** package.
 If you want to run the application using artisan command, run the following command within the root direcotry.
 
 ``
-php -S localhost:8000 -t ./public
+php -S localhost:8080 -t ./public
 ``
 
 The application will run at 
